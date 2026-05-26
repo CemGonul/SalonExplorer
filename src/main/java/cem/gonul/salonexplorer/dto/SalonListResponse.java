@@ -1,4 +1,12 @@
 package cem.gonul.salonexplorer.dto;
 
-public class SalonListResponse {
+import java.math.BigDecimal;
+
+public record SalonListResponse(
+        Long id,
+        String name,
+        String district,
+        BigDecimal rating,
+        String priceRange
+) {
 }

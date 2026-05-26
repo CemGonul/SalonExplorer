@@ -4,7 +4,7 @@ CREATE TABLE salons (
                         google_place_id VARCHAR(255) UNIQUE,
                         name VARCHAR(255) NOT NULL,
                         address VARCHAR(500) NOT NULL,
-                        district VARCHAR(100),
+                        district VARCHAR(100) NOT NULL,
 
                         phone VARCHAR(100),
                         website VARCHAR(500),

@@ -1,9 +1,8 @@
-package cem.gonul.salonexplorer.dto;
+package cem.gonul;
 
 import java.math.BigDecimal;
 
-public record SalonDetailResponse(
-        Long id,
+public record SalonRecord(
         String name,
         String address,
         String district,

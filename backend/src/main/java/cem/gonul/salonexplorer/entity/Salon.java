@@ -39,11 +39,11 @@ public class Salon {
     @Column(nullable = false, length = 100)
     private String district;
 
-    @Column(length = 100)
-    private String phone;
+    @Column(name = "phone_number", length = 100)
+    private String phoneNumber;
 
-    @Column(name = "website_or_social_url", length = 500)
-    private String websiteOrSocialUrl;
+    @Column(length = 500)
+    private String website;
 
     @Column(columnDefinition = "TEXT")
     private String services;

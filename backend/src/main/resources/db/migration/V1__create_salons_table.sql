@@ -5,8 +5,8 @@ CREATE TABLE salons (
                         address VARCHAR(500) NOT NULL,
                         district VARCHAR(100) NOT NULL,
 
-                        phone VARCHAR(100),
-                        website_or_social_url VARCHAR(500),
+                        phone_number VARCHAR(100),
+                        website VARCHAR(500),
                         services TEXT,
                         price_range VARCHAR(100),
                         rating NUMERIC(2,1),

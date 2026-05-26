@@ -40,8 +40,8 @@ public class SalonService {
         salon.setName(request.name());
         salon.setAddress(request.address());
         salon.setDistrict(request.district());
-        salon.setPhone(request.phone());
-        salon.setWebsiteOrSocialUrl(request.websiteOrSocialUrl());
+        salon.setPhoneNumber(request.phoneNumber());
+        salon.setWebsite(request.website());
         salon.setServices(request.services());
         salon.setPriceRange(request.priceRange());
         salon.setRating(request.rating());
@@ -72,8 +72,8 @@ public class SalonService {
                 salon.getName(),
                 salon.getAddress(),
                 salon.getDistrict(),
-                salon.getPhone(),
-                salon.getWebsiteOrSocialUrl(),
+                salon.getPhoneNumber(),
+                salon.getWebsite(),
                 salon.getServices(),
                 salon.getPriceRange(),
                 salon.getRating(),

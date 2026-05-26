@@ -19,10 +19,10 @@ public record SalonUpdateRequest(
         String district,
 
         @Size(max = 100)
-        String phone,
+        String phoneNumber,
 
         @Size(max = 500)
-        String websiteOrSocialUrl,
+        String website,
 
         String services,
 

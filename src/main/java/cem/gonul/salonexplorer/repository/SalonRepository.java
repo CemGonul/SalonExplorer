@@ -1,4 +1,7 @@
 package cem.gonul.salonexplorer.repository;
 
-public interface SalonRepository {
+import cem.gonul.salonexplorer.entity.Salon;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface SalonRepository extends JpaRepository<git Salon,Long> {
 }

@@ -7,7 +7,8 @@ CREATE TABLE salons (
                         district VARCHAR(100) NOT NULL,
 
                         phone VARCHAR(100),
-                        website VARCHAR(500),
+                        website_url VARCHAR(500),
+                        social_media_url VARCHAR(500),
                         services TEXT,
                         price_range VARCHAR(100),
 
@@ -17,7 +18,5 @@ CREATE TABLE salons (
                         latitude DOUBLE PRECISION,
                         longitude DOUBLE PRECISION,
                         google_maps_url VARCHAR(500),
-
-                        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                        business_status VARCHAR(100)
 );

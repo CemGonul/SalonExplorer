@@ -41,10 +41,11 @@ public class SalonService {
         salon.setAddress(request.address());
         salon.setDistrict(request.district());
         salon.setPhone(request.phone());
-        salon.setWebsiteUrl(request.websiteUrl());
-        salon.setSocialMediaUrl(request.socialMediaUrl());
+        salon.setWebsiteOrSocialUrl(request.websiteOrSocialUrl());
         salon.setServices(request.services());
         salon.setPriceRange(request.priceRange());
+        salon.setRating(request.rating());
+        salon.setReviewCount(request.reviewCount());
 
         Salon savedSalon = salonRepository.save(salon);
         return toDetailResponse(savedSalon);
@@ -68,21 +69,15 @@ public class SalonService {
     private SalonDetailResponse toDetailResponse(Salon salon) {
         return new SalonDetailResponse(
                 salon.getId(),
-                salon.getGooglePlaceId(),
                 salon.getName(),
                 salon.getAddress(),
                 salon.getDistrict(),
                 salon.getPhone(),
-                salon.getWebsiteUrl(),
-                salon.getSocialMediaUrl(),
+                salon.getWebsiteOrSocialUrl(),
                 salon.getServices(),
                 salon.getPriceRange(),
                 salon.getRating(),
-                salon.getReviewCount(),
-                salon.getLatitude(),
-                salon.getLongitude(),
-                salon.getGoogleMapsUrl(),
-                salon.getBusinessStatus()
+                salon.getReviewCount()
         );
     }
 }

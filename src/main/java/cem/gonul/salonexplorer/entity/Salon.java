@@ -6,6 +6,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import jakarta.persistence.UniqueConstraint;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -13,7 +14,13 @@ import lombok.Setter;
 import java.math.BigDecimal;
 
 @Entity
-@Table(name = "salons")
+@Table(
+        name = "salons",
+        uniqueConstraints = @UniqueConstraint(
+                name = "uk_salons_name_address",
+                columnNames = {"name", "address"}
+        )
+)
 @Getter
 @Setter
 @NoArgsConstructor
@@ -22,9 +29,6 @@ public class Salon {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    @Column(name = "google_place_id", unique = true)
-    private String googlePlaceId;
 
     @Column(nullable = false)
     private String name;
@@ -38,11 +42,8 @@ public class Salon {
     @Column(length = 100)
     private String phone;
 
-    @Column(name = "website_url", length = 500)
-    private String websiteUrl;
-
-    @Column(name = "social_media_url", length = 500)
-    private String socialMediaUrl;
+    @Column(name = "website_or_social_url", length = 500)
+    private String websiteOrSocialUrl;
 
     @Column(columnDefinition = "TEXT")
     private String services;
@@ -55,14 +56,4 @@ public class Salon {
 
     @Column(name = "review_count")
     private Integer reviewCount;
-
-    private Double latitude;
-
-    private Double longitude;
-
-    @Column(name = "google_maps_url", length = 500)
-    private String googleMapsUrl;
-
-    @Column(name = "business_status", length = 100)
-    private String businessStatus;
 }

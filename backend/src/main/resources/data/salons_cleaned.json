@@ -1,0 +1,1201 @@
+[ {
+  "name" : "Salon fryzjerski HiBeauty Nail & Hair",
+  "address" : "Domaniewska 22/U 2, 02-663 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "792 192 292",
+  "website" : "https://hibeauty-salon.pl/",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 4.5,
+  "reviewCount" : 88
+}, {
+  "name" : "Bomón beauty salon manicure pedicure brwi rzęsy masaż massage makeup makijaż / salon urody",
+  "address" : "Mariana Zdziechowskiego 3, 02-659 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "780 086 861",
+  "website" : "http://bomonbeautysalon.booksy.com/a",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 5,
+  "reviewCount" : 186
+}, {
+  "name" : "Beauty Studio Merci",
+  "address" : "Domaniewska 34A, 02-672 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "690 255 511",
+  "website" : "https://merci.beauty/",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 4.8,
+  "reviewCount" : 146
+}, {
+  "name" : "Studio Health & Beauty",
+  "address" : "Mariana Zdziechowskiego 7/lokal U 1, 02-659 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "791 288 923",
+  "website" : "https://booksy.com/pl-pl/38280_studio-health-beauty_salon-kosmetyczny_3_warszawa?fbclid=PAAaaEMGxM79Ryo6zrqgWjDAE_B4uhT7ejLM6iUXuPBR0TDXad_fV1I6BG2Hw_aem_AVZ-_2gkEfmEskhJVv6S9nJYWAi0UgHgFswrNTGKUN-ATfnhW_GQ7X_4d2vGIvevwRA",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 4.9,
+  "reviewCount" : 56
+}, {
+  "name" : "Staisi Beauty Bar salon kosmetyczny",
+  "address" : "Cybernetyki 7C/lokal U4, 02-677 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "796 434 457",
+  "website" : "http://staisiwarsaw.booksy.com/a",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 4.8,
+  "reviewCount" : 234
+}, {
+  "name" : "Beauty Studio \"Chic and Charm\"",
+  "address" : "Zygmunta Modzelewskiego 37/Lok U2, 02-679 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : null,
+  "website" : "http://chicandcharm.booksy.com/a/",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 4.6,
+  "reviewCount" : 68
+}, {
+  "name" : "Beauty salon ‚, I’m ”",
+  "address" : "Postępu 10, 02-676 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "792 586 339",
+  "website" : "https://www.im-beauty.pl/",
+  "services" : "Beauty Salon, Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.7,
+  "reviewCount" : 28
+}, {
+  "name" : "Beauty Boss Mokotów",
+  "address" : "Obrzeżna 1a, 02-691 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "517 307 835",
+  "website" : "https://www.instagram.com/beauty_boss_warsaw/?hl=ru",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 4,
+  "reviewCount" : 102
+}, {
+  "name" : "MOYÁ Beauty studio",
+  "address" : "Aleja Wilanowska 363/1 piętro, 02-665 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "690 673 383",
+  "website" : "http://moyabeautystudio.booksy.com/a/",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 4.6,
+  "reviewCount" : 32
+}, {
+  "name" : "INOI Hair & Beauty",
+  "address" : "Antoniego Edwarda Odyńca 57/36, 02-644 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "731 161 898",
+  "website" : "http://www.inoi.pl/",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 5,
+  "reviewCount" : 55
+}, {
+  "name" : "Manicure Hybrydowy Mokotów Salon kosmetyczny Etno Nails & Beauty",
+  "address" : "Jana Karola Chodkiewicza 3/U8, 02-593 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "518 681 433",
+  "website" : "http://booksy.com/pl-pl/110745_etno-nails-and-beauty-platnosc-gotowka_paznokcie_3_warszawa",
+  "services" : "Beauty Salon, Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.9,
+  "reviewCount" : 66
+}, {
+  "name" : "Euforia",
+  "address" : "Dolna 11, 00-712 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : null,
+  "website" : "http://euforiamokotow.pl/",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 4.7,
+  "reviewCount" : 193
+}, {
+  "name" : "Quality House of Beauty - Kosmetolog , masaze , depilacja laserowa,Mokotów | Klinika medycyny estetycznej Warszawa",
+  "address" : "Stanisława Żaryna 7, 02-593 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "604 121 416",
+  "website" : "https://www.qualitybeauty.pl/?utm_source=gmb&utm_medium=organic&utm_campaign=seomatica",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 4.8,
+  "reviewCount" : 50
+}, {
+  "name" : "Heavenly Beauty",
+  "address" : "Samochodowa 2/lok. 62, 02-652 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "512 067 084",
+  "website" : "http://www.heavenlybeauty.pl/",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 5,
+  "reviewCount" : 20
+}, {
+  "name" : "Bonjour Beauté - Salon kosmetyczny Warszawa Śródmieście",
+  "address" : "Świętokrzyska 30, wejście z tyłu budynku, II klatka, kod 100, 00-116 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "500 176 353",
+  "website" : "https://bonjourbeaute.pl/?utm_source=google_profile&utm_campaign=localo&utm_medium=mainlink",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 4.7,
+  "reviewCount" : 80
+}, {
+  "name" : "Ivy Beauty and Bubbles Warszawa",
+  "address" : "Emilii Plater 47, 00-118 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "733 010 733",
+  "website" : "https://www.moment.pl/s/ivybeautyandbubbles",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 4.7,
+  "reviewCount" : 956
+}, {
+  "name" : "Beauty Salon",
+  "address" : "Krucza 46, 00-522 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "533 693 555",
+  "website" : null,
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 4.2,
+  "reviewCount" : 40
+}, {
+  "name" : "Salon urody Minoko Beauty Space",
+  "address" : "Krochmalna 54/lokal U8, 00-864 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "533 997 799",
+  "website" : "https://minoko.pl/",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 4.8,
+  "reviewCount" : 386
+}, {
+  "name" : "Atelier Śródmieście",
+  "address" : "Nowogrodzka 42, 00-695 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "502 916 603",
+  "website" : "https://ateliersrodmiescie.pl/",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 4.5,
+  "reviewCount" : 190
+}, {
+  "name" : "Mariia Beauty",
+  "address" : "Żurawia 24/lok.31, 00-515 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "793 024 644",
+  "website" : "https://mariiabeauty.booksy.com/h/",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 4.9,
+  "reviewCount" : 75
+}, {
+  "name" : "Pracownia Beauty",
+  "address" : "Marszałkowska 37/A, 00-639 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "729 299 258",
+  "website" : "http://pracowniabeauty.booksy.com/a/",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 4.6,
+  "reviewCount" : 56
+}, {
+  "name" : "SANSHÉ Warszawa - salon kosmetyczny",
+  "address" : "Marszałkowska 74, 00-524 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "530 680 970",
+  "website" : "https://sanshe-beauty.booksy.com/",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 5,
+  "reviewCount" : 709
+}, {
+  "name" : "Salon Beauty Concept",
+  "address" : "Lwowska 4, 00-658 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "739 014 600",
+  "website" : "https://3b39c2cb.booksy.com/",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 4.6,
+  "reviewCount" : 19
+}, {
+  "name" : "TT STUDIO Beauty Space",
+  "address" : "Jana i Jędrzeja Śniadeckich 19, 00-654 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "571 851 185",
+  "website" : "http://booksy.com/pl-pl/instant-experiences/widget/161144?instant_experiences_enabled=true&ig_ix=true&fbclid=PAQ0xDSwMBijlleHRuA2FlbQIxMAABpyjqFzfMMp7RxGnq4sLK7mUx83Rc9azMBE8U_-F6EPxRSmMShQXwOf_4uZRT_aem_C015V0heRRV8bw9KKqrAEw",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 5,
+  "reviewCount" : 217
+}, {
+  "name" : "BM BEAUTY Studio kosmetyczne",
+  "address" : "Smolna 8, 00-375 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "536 200 573",
+  "website" : "https://instagram.com/b_m_beauty9?igshid=MzRlODBiNWFlZA==",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 5,
+  "reviewCount" : 11
+}, {
+  "name" : "WT Studio Beauty – Usługi kosmetyczne, masaż, presoterapia, manicure, pedicure",
+  "address" : "Zgoda 13, 00-012 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "737 821 712",
+  "website" : "https://wtbeauty.pl/",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 4.9,
+  "reviewCount" : 44
+}, {
+  "name" : "Presidential Beauty House Warszawa | Fryzjer strzyżenie | Manicure | Pedicure | Brwi Rzęsy | przedłużanie | oczyszczanie",
+  "address" : "Zygmunta Słomińskiego 19/504, 00-195 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "576 575 193",
+  "website" : "https://booksy.com/pl-pl/69449_presidential-beauty-house-bright-and-light_salon-kosmetyczny_3_warszawa",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 5,
+  "reviewCount" : 47
+}, {
+  "name" : "Oasis Beauty Day Spa",
+  "address" : "Aleje Jerozolimskie 65/79 pasaż handlowy, Warsaw Presidential Hotel, 00-697 parter, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "787 040 799",
+  "website" : "https://oasisbeautydayspa.pl/",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 4.6,
+  "reviewCount" : 123
+}, {
+  "name" : "Beauty Place to Change - OCZYSZCZANIE WODOROWE, MEZOTERAPIA, STYLIZACJA PAZNOKCI, TERAPIE TRĄDZIKOWE, LAMINACJA BRWI I RZĘS",
+  "address" : "Księcia Janusza 62/lok.231, 01-452 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "732 645 370",
+  "website" : "http://beautyplacewarszawa.booksy.com/h",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 4.8,
+  "reviewCount" : 125
+}, {
+  "name" : "Eco Beauty Salon salon kosmetyczny Warszawa Wola",
+  "address" : "Juliana Konstantego Ordona 12D/2U, 01-237 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "508 814 460",
+  "website" : "https://ecobeautysalon.pl/",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 5,
+  "reviewCount" : 85
+}, {
+  "name" : "Beauty Square 19",
+  "address" : "Kolejowa 49A/U5, 01-210 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "509 000 064",
+  "website" : "https://www.instagram.com/beautysquare.19?igsh=bGpwOXA3OHNhcGJs",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 4.8,
+  "reviewCount" : 165
+}, {
+  "name" : "Salon urody Beauty Home Warszawa Wola - Kosmetyka Masaż",
+  "address" : "Al. Prymasa Tysiąclecia 74b, 01-424 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "519 656 970",
+  "website" : "https://instagram.com/beautyhome_warszawa?utm_medium=copy_link",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 5,
+  "reviewCount" : 14
+}, {
+  "name" : "Cult of Care Beauty Salon",
+  "address" : "Marcina Kasprzaka 29, 01-234 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "796 774 177",
+  "website" : "https://www.instagram.com/cult.of.care?igsh=M2Rpc2hlZ3A5d3Zh",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 4.9,
+  "reviewCount" : 377
+}, {
+  "name" : "BE UNIQUE BEAUTY SALON / Rzęsy / Brwi / Makijaże",
+  "address" : "Przyokopowa 43, 01-202 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "889 889 472",
+  "website" : "https://be-unique-beauty.localo.site/?utm_source=google_profile&utm_campaign=localo&utm_medium=mainlink",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 4.9,
+  "reviewCount" : 399
+}, {
+  "name" : "V_pro.beauty",
+  "address" : "Płocka 46, 01-173 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "575 080 588",
+  "website" : "https://v-pro.beauty/",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 5,
+  "reviewCount" : 22
+}, {
+  "name" : "VIKI BEAUTY SPACE",
+  "address" : "obok Hebe, Banderii 4/lok u12, 01-164 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "574 571 676",
+  "website" : "http://vikibeautyspacewarszawa.booksy.com/a/",
+  "services" : "Beauty Salon, Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.8,
+  "reviewCount" : 445
+}, {
+  "name" : "Fit & Beauty",
+  "address" : "Mroczna 7, 01-456 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "664 330 697",
+  "website" : "https://www.facebook.com/FitandBeautyWarszawa?locale=pl_PL",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 4.7,
+  "reviewCount" : 132
+}, {
+  "name" : "BEAUTY SPACE WOLA",
+  "address" : "Górczewska 131/135, 01-109 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "576 075 470",
+  "website" : "http://beautyspacewola.booksy.com/",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 5,
+  "reviewCount" : 39
+}, {
+  "name" : "Beauty place",
+  "address" : "Kolejowa 45a/lok 23u, 01-219 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : null,
+  "website" : "http://beautyplace.waw.pl/",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 5,
+  "reviewCount" : 60
+}, {
+  "name" : "BEAUTY BRO",
+  "address" : "Banderii 4/200, 01-164 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "574 565 972",
+  "website" : "http://beautybro1.booksy.com/a",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 4.8,
+  "reviewCount" : 151
+}, {
+  "name" : "PRAWDA BEAUTY - HAIR | MANICURE | PEDICURE | LASHES | BROWS",
+  "address" : "Giełdowa 4A/U2, 01-211 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "512 344 455",
+  "website" : "https://www.instagram.com/prawda_beauty/",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 4.8,
+  "reviewCount" : 111
+}, {
+  "name" : "Norm Unisex Self-care Place. Hair, massage, cosmetology, nails | J Kazimierza",
+  "address" : "Jana Kazimierza 11A/U2, 01-248 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "453 454 771",
+  "website" : "https://norm.place/",
+  "services" : "Beauty Salon",
+  "priceRange" : null,
+  "rating" : 4.9,
+  "reviewCount" : 79
+}, {
+  "name" : "Nice Spa w Warszawie",
+  "address" : "Biały Kamień 3, 02-593 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "690 686 868",
+  "website" : "http://www.nicespa.com.pl/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.7,
+  "reviewCount" : 169
+}, {
+  "name" : "Lumira - Oriental Massage & Spa",
+  "address" : "Sielecka 35, 00-738 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "780 607 041",
+  "website" : "https://lumira.pl/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.9,
+  "reviewCount" : 254
+}, {
+  "name" : "Belle Spa & Clinic",
+  "address" : "Bukowińska 26C, 02-703 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "795 555 795",
+  "website" : "https://www.bellespa.pl/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.9,
+  "reviewCount" : 94
+}, {
+  "name" : "Tao Tao SPA",
+  "address" : "Ludwika Narbutta 83, 02-524 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "723 443 718",
+  "website" : "https://taotaospa.pl/salony/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.9,
+  "reviewCount" : 737
+}, {
+  "name" : "SPA 43 Mokotow - Endermologia, HIFU, Laser Frakcyjny, Manicure, Drenaż Limfatyczny, Makijaż Permanentny",
+  "address" : "Stanisława Żaryna 5/lok. 43, 02-593 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "608 654 393",
+  "website" : "http://spa43.pl/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.9,
+  "reviewCount" : 143
+}, {
+  "name" : "Thai Bali Spa Warszawa Mokotów",
+  "address" : "Bukowińska 2, 02-703 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "663 313 203",
+  "website" : "https://thaibalispa.pl/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.3,
+  "reviewCount" : 275
+}, {
+  "name" : "IvRoxe Salon Masażu Warszawa",
+  "address" : "Postępu 10/lok 88, 02-676 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "733 661 128",
+  "website" : "https://ivroxe.com/mokotow/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.9,
+  "reviewCount" : 572
+}, {
+  "name" : "Harmonia Head Spa",
+  "address" : "Puławska 107C/4, 02-595 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "530 685 887",
+  "website" : null,
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 5,
+  "reviewCount" : 23
+}, {
+  "name" : "Thai World Spa Puławska",
+  "address" : "Puławska 24 B/lok 2, 02-740 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "881 188 199",
+  "website" : "https://www.thaiworld.pl/warszawa/index.html",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.7,
+  "reviewCount" : 347
+}, {
+  "name" : "NUSA SPA OCHOTA MOKOTÓW Warszawa - masaż balijski i tajski (dawniej Hati Massage)",
+  "address" : "NUSA SPA OCHOTA MOKOTÓW, Racławicka 146, 02-117 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "720 807 883",
+  "website" : "https://nusaspa.pl/salony/warszawa-ochota-mokotow/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.9,
+  "reviewCount" : 263
+}, {
+  "name" : "Samui SPA",
+  "address" : "Marszałkowska 94/98, 00-510 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "690 688 428",
+  "website" : "https://samui-spa.pl/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.9,
+  "reviewCount" : 501
+}, {
+  "name" : "Thai World Spa Wilanowska",
+  "address" : "Aleja Wilanowska 366A, 02-665 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "881 188 199",
+  "website" : "http://www.thaiworld.pl/warszawa/index.html",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.6,
+  "reviewCount" : 100
+}, {
+  "name" : "Nice Spa Fort Piłsudskiego",
+  "address" : "Fort Piłsudskiego 1, 02-704 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "789 999 679",
+  "website" : "https://nicespa.com.pl/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 5,
+  "reviewCount" : 20
+}, {
+  "name" : "Blissful",
+  "address" : "Puławska 107, 02-511 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "889 555 234",
+  "website" : "https://blissfulmassagewarsaw.com/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.9,
+  "reviewCount" : 100
+}, {
+  "name" : "Desert Rose",
+  "address" : "Tytusa Chałubińskiego 8, 00-613 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "737 983 218",
+  "website" : "https://www.desertrose.pl/en/?source=949&utm_source=googlebusinessprofile&utm_medium=organic&utm_campaign=hb",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.6,
+  "reviewCount" : 359
+}, {
+  "name" : "SPA FOR YOU - Day Spa w Hotelu InterContinental",
+  "address" : "Emilii Plater 49, 00-125 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "695 342 434",
+  "website" : "https://spaforyou.com.pl/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.9,
+  "reviewCount" : 255
+}, {
+  "name" : "Sungate Spa Warszawa Centrum – Zabiegi na Twarz i Ciało | Masaż | Relaks i Spa dla Dwojga",
+  "address" : "pl. Powstańców Warszawy 2a, 00-030 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "22 428 36 16",
+  "website" : "http://www.spasungate.pl/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.5,
+  "reviewCount" : 82
+}, {
+  "name" : "Samidare Head Spa",
+  "address" : "Mikołaja Kopernika 32/19, 00-336 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "883 884 637",
+  "website" : null,
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 5,
+  "reviewCount" : 40
+}, {
+  "name" : "Tantric Paradise Spa I Erotic massage Warsaw",
+  "address" : "Grzybowska 2a/lok.1, 00-131 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "574 440 880",
+  "website" : "https://tantricparadise.pl/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.7,
+  "reviewCount" : 153
+}, {
+  "name" : "SEN Massage & SPA",
+  "address" : "Krakowskie Przedmieście 47/49/51, 00-071 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "798 655 855",
+  "website" : "https://jesshotel.pl/sen-spa",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.7,
+  "reviewCount" : 84
+}, {
+  "name" : "Spa For You - Day Spa w Hilton Warsaw City Hotel",
+  "address" : "Grzybowska 63, 00-844 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "695 342 434",
+  "website" : "https://spaforyou.com.pl/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 5,
+  "reviewCount" : 100
+}, {
+  "name" : "SPA FOR YOU - Day SPA Warsaw Old Town",
+  "address" : "Senatorska 13/15 Piętro 2, 00-075 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "695 342 434",
+  "website" : "http://spaforyou.com.pl/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.9,
+  "reviewCount" : 64
+}, {
+  "name" : "ISLA MASSAGE & SPA",
+  "address" : "Emilii Plater 47, 00-118 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "883 984 091",
+  "website" : "https://isla-spa.pl/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.6,
+  "reviewCount" : 272
+}, {
+  "name" : "Terra Spa Iwona Kossakowska",
+  "address" : "Chmielna 5/lok. nr 7, 00-021 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "726 221 417",
+  "website" : "http://www.terraspa.pl/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.5,
+  "reviewCount" : 311
+}, {
+  "name" : "Mastell - massage and day spa",
+  "address" : "Spokojna 5, 01-044 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "502 265 660",
+  "website" : "https://www.mastell.pl/?utm_source=google.pl&utm_medium=moja-firma&utm_campaign=wizytowka",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.8,
+  "reviewCount" : 379
+}, {
+  "name" : "Asia Spa Massage",
+  "address" : "Gen. W. Andersa 15, 00-159 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "883 581 261",
+  "website" : "https://www.asiaspa.pl/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.8,
+  "reviewCount" : 44
+}, {
+  "name" : "Zen Thai Spa - Masaż Tajski I Balijski - Centrum",
+  "address" : "Świętokrzyska 18, 00-052 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "666 185 117",
+  "website" : "https://www.zenthaispa.pl/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.6,
+  "reviewCount" : 333
+}, {
+  "name" : "Tao Tao SPA",
+  "address" : "Cecylii Śniegockiej 7, 00-430 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "573 006 242",
+  "website" : "https://taotaospa.pl/salony/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 5,
+  "reviewCount" : 529
+}, {
+  "name" : "ZEN THAI SPA - Masaż Tajski i Balijski - Wola",
+  "address" : "Sokołowska 7, 01-142 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "666 185 117",
+  "website" : "https://zenthaispa.pl/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.7,
+  "reviewCount" : 1011
+}, {
+  "name" : "Mango SPA",
+  "address" : "Krochmalna 59/LU4, 00-864 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "789 669 774",
+  "website" : "https://www.mangospa.pl/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.8,
+  "reviewCount" : 145
+}, {
+  "name" : "SPA 43 Wola - Endermologia, HIFU, Laser Frakcyjny, Manicure, Drenaż Limfatyczny, Makijaż Permanentny",
+  "address" : "Jana Kazimierza 25a/lok. U3, 01-248 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "608 544 200",
+  "website" : "http://spa43.pl/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.8,
+  "reviewCount" : 60
+}, {
+  "name" : "Thai Bali Spa Wola Park",
+  "address" : "Górczewska 124, 01-460 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "697 010 046",
+  "website" : "https://www.thaibalispa.pl/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 3.9,
+  "reviewCount" : 76
+}, {
+  "name" : "Relax in Spa - Salon Masażu w Warszawie",
+  "address" : "Sienna 86, 00-815 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "600 535 222",
+  "website" : "http://www.relaxinspa.pl/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.8,
+  "reviewCount" : 438
+}, {
+  "name" : "Rose & Wine Massage Tantric Warsaw",
+  "address" : "Jana Szymczaka 1/UD1, 01-227 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "501 705 155",
+  "website" : "https://rosewine.pl/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.7,
+  "reviewCount" : 161
+}, {
+  "name" : "Mini-Spa",
+  "address" : "Górczewska 179/lok. 28, 01-459 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "600 010 119",
+  "website" : "http://www.mini-spa.waw.pl/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.3,
+  "reviewCount" : 24
+}, {
+  "name" : "Thai Bali Spa Warszawa - Jana Kazimierza",
+  "address" : "Jana Kazimierza 35, 01-248 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "669 081 092",
+  "website" : "https://thaibalispa.pl/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.3,
+  "reviewCount" : 128
+}, {
+  "name" : "Body Sense Massage",
+  "address" : "Chłodna 52, 00-872 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "728 071 071",
+  "website" : "https://www.bodysense.pl/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.7,
+  "reviewCount" : 180
+}, {
+  "name" : "Sandroom masaż",
+  "address" : "Giełdowa 4E, 01-211 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "572 738 359",
+  "website" : "http://sandroom.pl/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 5,
+  "reviewCount" : 186
+}, {
+  "name" : "CANDLE SPA & MASSAGE",
+  "address" : "Grzybowska 12/14,lokal U-3, 00-132 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "731 394 162",
+  "website" : "https://www.candlespamassage.pl/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.9,
+  "reviewCount" : 48
+}, {
+  "name" : "The Pedicure Spa",
+  "address" : "Chłodna 48/u4, 00-872 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "575 625 355",
+  "website" : "https://estheticgroup.pl/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.7,
+  "reviewCount" : 391
+}, {
+  "name" : "IvRoxe Salon Masażu Warszawa",
+  "address" : "Ogrodowa 65, 00-876 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "880 861 128",
+  "website" : "https://ivroxe.com/wola/",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 5,
+  "reviewCount" : 633
+}, {
+  "name" : "Thai Bali Massage - Masaż Tajski, Masaż Balijski | Wola",
+  "address" : "Marcina Kasprzaka 31/U6, 01-234 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "735 017 245",
+  "website" : "https://booksy.com/pl-pl/218359_thai-bali-massage_masaz_3_warszawa",
+  "services" : "Spa Salon",
+  "priceRange" : null,
+  "rating" : 4.7,
+  "reviewCount" : 147
+}, {
+  "name" : "LOVE Nails - Salon Kosmetyczny: Manicure, Pedicure & Mokotów",
+  "address" : "Komputerowa 8, 02-676 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "577 026 280",
+  "website" : "https://n1224348.alteg.io/",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.8,
+  "reviewCount" : 181
+}, {
+  "name" : "Mari Nails Studio",
+  "address" : "Ignacego Krasickiego 16, 02-611 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "508 560 750",
+  "website" : "https://www.instagram.com/mari_nails_studio_warszawa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 5,
+  "reviewCount" : 102
+}, {
+  "name" : "Lio Nail Art - Mokotow",
+  "address" : "Wołoska 12, 02-675 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "789 808 888",
+  "website" : null,
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.8,
+  "reviewCount" : 243
+}, {
+  "name" : "Baby Cream Nails",
+  "address" : "Ludwika Narbutta 55/57, 02-529 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "570 777 679",
+  "website" : "https://www.instagram.com/baby_cream_nails?igsh=ejJjOWJjbHVnczYz",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 5,
+  "reviewCount" : 58
+}, {
+  "name" : "LADI Nail Studio",
+  "address" : "Puławska 115/40, 02-707 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "732 737 940",
+  "website" : "https://www.instagram.com/ladi.nail.studio",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.9,
+  "reviewCount" : 89
+}, {
+  "name" : "Daria Nails (dawniej N.T. Nail Shop) - salon paznokci",
+  "address" : "Stanisława Żaryna 5/3u, 02-593 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "570 018 797",
+  "website" : "https://linktr.ee/ntnailshop",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.6,
+  "reviewCount" : 62
+}, {
+  "name" : "Nails Lab Mokotów",
+  "address" : "Puławska 228/lok 6, 02-670 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "534 969 989",
+  "website" : "https://booksy.com/pl-pl/instant-experiences/widget/141155,87014,303117,246803?fbclid=PAdGRleANG_tNleHRuA2FlbQIxMQABp4Ir7gLt3X-qs3qCw6N3SSNOy2PasWL4dNmHNTuPDu2JKGsGPL4FP4j8PV-N_aem_4U3INj9P_TkKRxQSZhMB9g",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.9,
+  "reviewCount" : 39
+}, {
+  "name" : "MolyX Beauty Nails",
+  "address" : "Puławska 2, 02-566 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "579 107 078",
+  "website" : "https://molyxbeauty.booksy.com/",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.6,
+  "reviewCount" : 144
+}, {
+  "name" : "8 place - Beauty Studio | Manicure | Pedicure |Brwi | Rzęsy Warszawa, Mokotów",
+  "address" : "Puławska 77, 02-684 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "888 834 483",
+  "website" : "http://8place.booksy.com/a/",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.8,
+  "reviewCount" : 85
+}, {
+  "name" : "PoVy Nails Beauty",
+  "address" : "Postępu 10/lok171, 02-676 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "668 849 368",
+  "website" : "http://povybeauty.booksy.com/",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.8,
+  "reviewCount" : 197
+}, {
+  "name" : "Fox studio Nails & Lashes",
+  "address" : "Puławska 11, 02-515 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "888 919 969",
+  "website" : null,
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.5,
+  "reviewCount" : 67
+}, {
+  "name" : "Nails Painter Martyna Sznurkowska | Manicure Warszawa | Pedicure Warszawa | Paznokcie Mokotów",
+  "address" : "Batuty 7D/lok. 37, 02-743 Warszawa, Poland",
+  "district" : "Mokotów",
+  "phoneNumber" : "690 420 405",
+  "website" : "http://nailspainter.booksy.com/a/",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 5,
+  "reviewCount" : 35
+}, {
+  "name" : "Nails Lab",
+  "address" : "Jana i Jędrzeja Śniadeckich 12/lok. 21, 00-656 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "534 969 989",
+  "website" : "https://booksy.com/pl-pl/instant-experiences/widget/141155,87014,303117,246803?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAdGRleAQnzWNleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAaeuLnySUMjx55t72fydixHdhoH8w-HxjffpLE-DnhE-KiaRHg9TBHr4pXxIIA_aem_T3osBmQn_VL2RiNRJeY5Ng",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.9,
+  "reviewCount" : 57
+}, {
+  "name" : "ESTÉ Warszawa - Nail salon",
+  "address" : "Bagno 2, 00-112 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "883 455 762",
+  "website" : "http://este-nailsalon.booksy.com/a/",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 5,
+  "reviewCount" : 94
+}, {
+  "name" : "NAIL FACTORY | Manicure / Pedicure / Henna / Przekłuwanie uszu / Inne usługi Beauty",
+  "address" : "Złota 59 Złote Tarasy poziom + 2, 00-120 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "796 040 499",
+  "website" : "http://nailfactory.pl/",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.3,
+  "reviewCount" : 179
+}, {
+  "name" : "EL’FAME Nails & Hair Warszawa",
+  "address" : "Jana i Jędrzeja Śniadeckich 12/lok. 21, 00-656 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "730 359 619",
+  "website" : null,
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.7,
+  "reviewCount" : 143
+}, {
+  "name" : "Nails by Korzeniowska",
+  "address" : "Nowogrodzka 18a/1, 00-511 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "514 569 980",
+  "website" : null,
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.9,
+  "reviewCount" : 77
+}, {
+  "name" : "Peach Nails Studio",
+  "address" : "Ordynacka 13, 00-364 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "537 335 887",
+  "website" : "http://peachstudio.booksy.com/",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.8,
+  "reviewCount" : 62
+}, {
+  "name" : "PINK NAILS – Manicure, Pedicure i Stylizacja Paznokci | Warszawa Śródmieście",
+  "address" : "Kredytowa 2, 00-062 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "609 014 681",
+  "website" : "http://pinksalon2.booksy.com/a/",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.6,
+  "reviewCount" : 133
+}, {
+  "name" : "Black Studio",
+  "address" : "Al. Jerozolimskie 6, 00-375 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "531 603 782",
+  "website" : "http://blackstudiosmolna.booksy.com/",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 5,
+  "reviewCount" : 59
+}, {
+  "name" : "365 Warsaw Studio",
+  "address" : "al. Jana Pawła II 45A/lokal 43A(1 piętro, 01-008 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "575 541 884",
+  "website" : "http://365warsawstudio.booksy.com/",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.7,
+  "reviewCount" : 59
+}, {
+  "name" : "fingerSPA - manicure i pedicure",
+  "address" : "Leszczyńska 12, 00-339 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "22 299 73 75",
+  "website" : "https://fingerspa.pl/?utm_source=google_profile&utm_campaign=localo&utm_medium=mainlink",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.8,
+  "reviewCount" : 144
+}, {
+  "name" : "Tańcząca z Frezami - Manicure Warszawa Śródmieście",
+  "address" : "Al. Jerozolimskie 49/klatka 3, 00-696 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "534 754 777",
+  "website" : "https://booksy.com/pl-pl/236747_tanczaca-z-frezami-martyna-bochenek_paznokcie_3_warszawa#ba_s=seo",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 5,
+  "reviewCount" : 22
+}, {
+  "name" : "OLALA NAIL BAR",
+  "address" : "Świętokrzyska 30, 00-116 Warszawa, Poland",
+  "district" : "Śródmieście",
+  "phoneNumber" : "696 484 143",
+  "website" : null,
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.7,
+  "reviewCount" : 31
+}, {
+  "name" : "LOVE Nails - Salon Kosmetyczny: Manicure, Pedicure & Wola",
+  "address" : "Stanisława Worcella 3/U3, 01-250 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "690 026 287",
+  "website" : "https://n1186660.alteg.io/",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.6,
+  "reviewCount" : 194
+}, {
+  "name" : "ElBeautyKa Warszawa.Nails",
+  "address" : "Jana Kazimierza 68, 01-248 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "573 568 887",
+  "website" : "https://booksy.com/pl-pl/77690_drasteee-beauty-bar_paznokcie_3_warszawa",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.8,
+  "reviewCount" : 110
+}, {
+  "name" : "Nails & Beauty Warszawa",
+  "address" : "Elekcyjna 19/u3, 01-128 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "507 700 151",
+  "website" : "http://nailsbeautywarszawa.booksy.com/",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 5,
+  "reviewCount" : 39
+}, {
+  "name" : "Xnail Wola",
+  "address" : "Jana Kazimierza 28/4, 01-248 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "574 811 954",
+  "website" : "https://xnailwolanew.booksy.com/a",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.5,
+  "reviewCount" : 275
+}, {
+  "name" : "Vin Nails",
+  "address" : "Połczyńska 4, 01-378 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "882 602 299",
+  "website" : "https://vin-nails-fort-wola.vietcare.app/",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 3.9,
+  "reviewCount" : 137
+}, {
+  "name" : "Sakina nails",
+  "address" : "al. Jana Pawła II 41A, 01-001 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "729 654 953",
+  "website" : "http://sakinanailswarszawa.booksy.com/",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.9,
+  "reviewCount" : 123
+}, {
+  "name" : "Bloomlace Nails Studio – Manicure Warszawa Wola",
+  "address" : "Juliana Konstantego Ordona 7, 01-237 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "881 039 872",
+  "website" : "https://instagram.com/bloomlace_nails",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.7,
+  "reviewCount" : 117
+}, {
+  "name" : "nail bar OPI Karolkowa -Wola Warszawa MANICURE PEDICURE",
+  "address" : "Budynek Karolkowa business park, Karolkowa 30, 01-207 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "790 508 160",
+  "website" : "https://www.instagram.com/esthetic_nailbar_opi",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.6,
+  "reviewCount" : 178
+}, {
+  "name" : "Lio Nail Art.82",
+  "address" : "Żelazna 82/84, 00-894 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "798 868 888",
+  "website" : null,
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.9,
+  "reviewCount" : 667
+}, {
+  "name" : "Good Vibes Nails Studio",
+  "address" : "Wronia 45/U4, 00-870 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : "780 467 163",
+  "website" : "http://goodvibesnailsstudio.booksy.com/a/",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.9,
+  "reviewCount" : 52
+}, {
+  "name" : "LUNA BEAUTY",
+  "address" : "Kolejowa 47b/lok U4, 01-210 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : null,
+  "website" : "https://instagram.com/luna__warsaw?igshid=YmMyMTA2M2Y=",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.4,
+  "reviewCount" : 161
+}, {
+  "name" : "ST Nails Art( Wola )",
+  "address" : "Banderii 4/lok u6, 01-164 Warszawa, Poland",
+  "district" : "Wola",
+  "phoneNumber" : null,
+  "website" : "http://stnailart.booksy.com/",
+  "services" : "Nail Salon",
+  "priceRange" : null,
+  "rating" : 4.5,
+  "reviewCount" : 86
+} ]

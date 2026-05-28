@@ -7,6 +7,7 @@ public record SalonListResponse(
         String name,
         String district,
         BigDecimal rating,
+        Integer reviewCount,
         String priceRange
 ) {
 }

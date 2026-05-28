@@ -21,6 +21,14 @@ public class ApiExceptionHandler {
         return error;
     }
 
+    @ExceptionHandler(BadRequestException.class)
+    @ResponseStatus(HttpStatus.BAD_REQUEST)
+    public Map<String, String> handleBadRequest(BadRequestException exception) {
+        Map<String, String> error = new LinkedHashMap<>();
+        error.put("message", exception.getMessage());
+        return error;
+    }
+
     @ExceptionHandler(MethodArgumentNotValidException.class)
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     public Map<String, Object> handleValidation(MethodArgumentNotValidException exception) {

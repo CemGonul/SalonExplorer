@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -23,8 +24,12 @@ public class SalonController {
     private final SalonService salonService;
 
     @GetMapping
-    public List<SalonListResponse> getAllSalons() {
-        return salonService.getAllSalons();
+    public List<SalonListResponse> getSalons(
+            @RequestParam(required = false) String district,
+            @RequestParam(required = false) String sortBy,
+            @RequestParam(required = false) String direction
+    ) {
+        return salonService.getSalons(district, sortBy, direction);
     }
 
     @GetMapping("/{id}")

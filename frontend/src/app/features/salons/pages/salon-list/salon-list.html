@@ -1,0 +1,54 @@
+<section class="salon-list">
+  <div class="salon-list__header">
+    <div>
+      <p class="section-label">Salon directory</p>
+      <h2>Available salons</h2>
+    </div>
+    <p class="salon-count">{{ salons().length }} salons</p>
+  </div>
+
+  @if (isLoading()) {
+    <div class="status-card">
+      <p>Loading salons from the backend...</p>
+    </div>
+  } @else if (errorMessage()) {
+    <div class="status-card status-card--error">
+      <p>{{ errorMessage() }}</p>
+    </div>
+  } @else if (salons().length === 0) {
+    <div class="status-card">
+      <p>No salons found yet.</p>
+    </div>
+  } @else {
+    <div class="salon-grid">
+      @for (salon of salons(); track salon.id) {
+        <article class="salon-card">
+          <div class="salon-card__topline">
+            <span>{{ salon.district }}</span>
+            @if (salon.priceRange) {
+              <span>{{ salon.priceRange }}</span>
+            } @else {
+              <span>Price unknown</span>
+            }
+          </div>
+
+          <h3>{{ salon.name }}</h3>
+
+          <div class="salon-card__meta">
+            @if (salon.rating) {
+              <span class="rating">{{ salon.rating }}</span>
+            } @else {
+              <span class="rating">No rating</span>
+            }
+
+            @if (salon.reviewCount) {
+              <span>{{ salon.reviewCount }} reviews</span>
+            } @else {
+              <span>No reviews yet</span>
+            }
+          </div>
+        </article>
+      }
+    </div>
+  }
+</section>

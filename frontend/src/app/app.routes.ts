@@ -1,3 +1,14 @@
 import { Routes } from '@angular/router';
 
-export const routes: Routes = [];
+import { SalonList } from './features/salons/pages/salon-list/salon-list';
+
+export const routes: Routes = [
+  {
+    path: '',
+    component: SalonList
+  },
+  {
+    path: '**',
+    redirectTo: ''
+  }
+];

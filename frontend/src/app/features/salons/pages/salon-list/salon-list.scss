@@ -17,6 +17,7 @@
 
 .section-label,
 .salon-count,
+.filters,
 .salon-card__topline,
 .salon-card__meta,
 .status-card {
@@ -49,6 +50,43 @@ h2 {
   color: #5d5349;
   background: #fffaf2;
   font-size: 0.9rem;
+}
+
+.filters {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.filters label {
+  display: grid;
+  gap: 8px;
+  color: #756b60;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.filters select {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid rgba(36, 32, 27, 0.16);
+  border-radius: 16px;
+  color: #24201b;
+  background: #fffaf2;
+  font: inherit;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: normal;
+  outline: none;
+  text-transform: none;
+}
+
+.filters select:focus {
+  border-color: rgba(185, 93, 59, 0.58);
+  box-shadow: 0 0 0 4px rgba(185, 93, 59, 0.12);
 }
 
 .salon-grid {
@@ -143,6 +181,10 @@ h2 {
   .salon-list__header {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .filters {
+    grid-template-columns: 1fr;
   }
 
   .salon-grid {

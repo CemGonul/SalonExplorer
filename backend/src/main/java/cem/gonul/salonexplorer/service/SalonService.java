@@ -13,7 +13,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
 
 @Service
 @RequiredArgsConstructor
@@ -79,6 +78,10 @@ public class SalonService {
     }
 
     private Sort createSort(String sortBy, String direction) {
+        if (sortBy == null || sortBy.isBlank()) {
+            return Sort.unsorted();
+        }
+
         String property = resolveSortProperty(sortBy);
         Sort.Direction sortDirection = resolveDirection(direction, property);
 
@@ -86,11 +89,7 @@ public class SalonService {
     }
 
     private String resolveSortProperty(String sortBy) {
-        if (sortBy == null || sortBy.isBlank()) {
-            return "name";
-        }
-
-        String normalizedSortBy = sortBy.trim().toLowerCase(Locale.ROOT);
+        String normalizedSortBy = sortBy.trim().toLowerCase();
 
         if ("name".equals(normalizedSortBy)) {
             return "name";
@@ -111,7 +110,7 @@ public class SalonService {
             return getDefaultDirection(property);
         }
 
-        String normalizedDirection = direction.trim().toLowerCase(Locale.ROOT);
+        String normalizedDirection = direction.trim().toLowerCase();
 
         if ("asc".equals(normalizedDirection)) {
             return Sort.Direction.ASC;

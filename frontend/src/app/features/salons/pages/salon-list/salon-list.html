@@ -7,6 +7,50 @@
     <p class="salon-count">{{ salons().length }} salons</p>
   </div>
 
+  <div class="filters" aria-label="Salon filters">
+    <label>
+      District
+      <select
+        #districtSelect
+        [value]="selectedDistrict()"
+        (change)="onDistrictChange(districtSelect.value)"
+      >
+        <option value="">All districts</option>
+        @for (district of districts; track district) {
+          <option [value]="district">{{ district }}</option>
+        }
+      </select>
+    </label>
+
+    <label>
+      Sort by
+      <select
+        #sortBySelect
+        [value]="selectedSortBy()"
+        (change)="onSortByChange(sortBySelect.value)"
+      >
+        <option value="">None</option>
+        <option value="name">Name</option>
+        <option value="rating">Rating</option>
+        <option value="reviewCount">Review count</option>
+      </select>
+    </label>
+
+    <label>
+      Direction
+      <select
+        #directionSelect
+        [value]="selectedDirection()"
+        [disabled]="!selectedSortBy()"
+        (change)="onDirectionChange(directionSelect.value)"
+      >
+        <option value="">None</option>
+        <option value="asc">Ascending</option>
+        <option value="desc">Descending</option>
+      </select>
+    </label>
+  </div>
+
   @if (isLoading()) {
     <div class="status-card">
       <p>Loading salons from the backend...</p>

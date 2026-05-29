@@ -6,13 +6,10 @@ import { SalonDetail } from '../../features/salons/models/salon-detail.model';
 import { SalonListItem } from '../../features/salons/models/salon-list-item.model';
 import { SalonUpdateRequest } from '../../features/salons/models/salon-update-request.model';
 
-export type SalonSortBy = 'name' | 'rating' | 'reviewCount';
-export type SortDirection = 'asc' | 'desc';
-
 export interface SalonListFilters {
   district?: string;
-  sortBy?: SalonSortBy;
-  direction?: SortDirection;
+  sortBy?: string;
+  direction?: string;
 }
 
 @Injectable({

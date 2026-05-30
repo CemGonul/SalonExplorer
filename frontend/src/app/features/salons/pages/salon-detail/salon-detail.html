@@ -1,0 +1,67 @@
+<section class="detail-page">
+  <a class="back-link" routerLink="/">Back to salons</a>
+
+  @if (isLoading()) {
+    <div class="status-card">
+      <p>Loading salon details...</p>
+    </div>
+  } @else if (errorMessage()) {
+    <div class="status-card status-card--error">
+      <p>{{ errorMessage() }}</p>
+    </div>
+  } @else if (salon(); as salon) {
+    <article class="detail-card">
+      <div class="detail-card__header">
+        <div>
+          <p class="section-label">{{ salon.district }}</p>
+          <h2>{{ salon.name }}</h2>
+        </div>
+
+        <div class="rating-box">
+          @if (salon.rating) {
+            <strong>{{ salon.rating }}</strong>
+          } @else {
+            <strong>-</strong>
+          }
+
+          @if (salon.reviewCount) {
+            <span>{{ salon.reviewCount }} reviews</span>
+          } @else {
+            <span>No reviews</span>
+          }
+        </div>
+      </div>
+
+      <div class="detail-grid">
+        <section class="detail-item detail-item--wide">
+          <span>Address</span>
+          <p>{{ salon.address }}</p>
+        </section>
+
+        <section class="detail-item">
+          <span>Phone</span>
+          <p>{{ salon.phoneNumber || 'Not available' }}</p>
+        </section>
+
+        <section class="detail-item">
+          <span>Website</span>
+          @if (salon.website) {
+            <a [href]="salon.website" target="_blank" rel="noopener">{{ salon.website }}</a>
+          } @else {
+            <p>Not available</p>
+          }
+        </section>
+
+        <section class="detail-item">
+          <span>Service category</span>
+          <p>{{ salon.services || 'Not available' }}</p>
+        </section>
+
+        <section class="detail-item">
+          <span>Price range</span>
+          <p>{{ salon.priceRange || 'Unknown' }}</p>
+        </section>
+      </div>
+    </article>
+  }
+</section>

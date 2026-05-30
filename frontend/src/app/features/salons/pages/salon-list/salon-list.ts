@@ -1,11 +1,13 @@
 import { Component, DestroyRef, OnInit, inject, signal } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
+import { RouterLink } from '@angular/router';
 
 import { SalonApiService } from '../../../../core/services/salon-api.service';
 import { SalonListItem } from '../../models/salon-list-item.model';
 
 @Component({
   selector: 'app-salon-list',
+  imports: [RouterLink],
   templateUrl: './salon-list.html',
   styleUrl: './salon-list.scss'
 })

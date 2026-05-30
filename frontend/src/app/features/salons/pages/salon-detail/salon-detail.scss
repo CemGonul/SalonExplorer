@@ -1,0 +1,155 @@
+.detail-page {
+  margin-top: 10px;
+}
+
+.back-link {
+  display: inline-flex;
+  margin-bottom: 14px;
+  color: #8f563b;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.detail-card,
+.status-card {
+  border: 1px solid #ddd4c6;
+  border-radius: 18px;
+  background: #fffdf8;
+}
+
+.detail-card {
+  padding: 24px;
+}
+
+.detail-card__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 20px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #ddd4c6;
+}
+
+.section-label,
+.rating-box,
+.detail-grid,
+.status-card {
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+
+.section-label {
+  margin: 0 0 8px;
+  color: #8f563b;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 0;
+  color: #242321;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  font-weight: 600;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+}
+
+.rating-box {
+  min-width: 116px;
+  padding: 12px;
+  border: 1px solid #ddd4c6;
+  border-radius: 12px;
+  background: #f8f4ec;
+  text-align: center;
+}
+
+.rating-box strong {
+  display: block;
+  color: #8f563b;
+  font-size: 1.7rem;
+}
+
+.rating-box span {
+  color: #6f6a61;
+  font-size: 0.86rem;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.detail-item {
+  padding: 16px;
+  border: 1px solid #ddd4c6;
+  border-radius: 12px;
+  background: #fffdf8;
+}
+
+.detail-item--wide {
+  grid-column: 1 / -1;
+}
+
+.detail-grid span {
+  display: block;
+  margin-bottom: 8px;
+  color: #6f6a61;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.detail-grid p,
+.detail-grid a {
+  margin: 0;
+  color: #242321;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.detail-grid a {
+  color: #8f563b;
+}
+
+.status-card {
+  padding: 22px;
+  color: #6f6a61;
+}
+
+.status-card p {
+  margin: 0;
+}
+
+.status-card--error {
+  border-color: #b76a4b;
+  color: #7f3f27;
+  background: #fff0e8;
+}
+
+@media (max-width: 700px) {
+  .detail-card {
+    padding: 18px;
+  }
+
+  .detail-card__header {
+    flex-direction: column;
+  }
+
+  .detail-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .rating-box {
+    width: 100%;
+  }
+}

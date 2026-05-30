@@ -1,8 +1,8 @@
 <section class="salon-list">
   <div class="salon-list__header">
     <div>
-      <p class="section-label">Salon directory</p>
-      <h2>Available salons</h2>
+      <p class="section-label">Directory</p>
+      <h2>Browse salons</h2>
     </div>
     <p class="salon-count">{{ salons().length }} salons</p>
   </div>
@@ -64,34 +64,34 @@
       <p>No salons found yet.</p>
     </div>
   } @else {
-    <div class="salon-grid">
+    <div class="salon-results">
       @for (salon of salons(); track salon.id) {
-        <article class="salon-card">
-          <div class="salon-card__topline">
-            <span>{{ salon.district }}</span>
+        <a class="salon-row" [routerLink]="['/salons', salon.id]">
+          <div class="salon-row__main">
+            <span class="district">{{ salon.district }}</span>
+            <h3>{{ salon.name }}</h3>
+          </div>
+
+          <div class="salon-row__details">
+            @if (salon.rating) {
+              <span>Rating {{ salon.rating }}</span>
+            } @else {
+              <span>No rating</span>
+            }
+
+            @if (salon.reviewCount) {
+              <span>{{ salon.reviewCount }} reviews</span>
+            } @else {
+              <span>No reviews</span>
+            }
+
             @if (salon.priceRange) {
               <span>{{ salon.priceRange }}</span>
             } @else {
               <span>Price unknown</span>
             }
           </div>
-
-          <h3>{{ salon.name }}</h3>
-
-          <div class="salon-card__meta">
-            @if (salon.rating) {
-              <span class="rating">{{ salon.rating }}</span>
-            } @else {
-              <span class="rating">No rating</span>
-            }
-
-            @if (salon.reviewCount) {
-              <span>{{ salon.reviewCount }} reviews</span>
-            } @else {
-              <span>No reviews yet</span>
-            }
-          </div>
-        </article>
+        </a>
       }
     </div>
   }

@@ -18,7 +18,7 @@
 .filters,
 .salon-row__details,
 .status-card {
-  font-family: "Trebuchet MS", Verdana, sans-serif;
+  font-family: var(--body-font);
 }
 
 .section-label {
@@ -33,7 +33,7 @@
 h2 {
   margin: 0;
   color: #242321;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--heading-font);
   font-size: clamp(1.7rem, 4vw, 2.4rem);
   font-weight: 600;
   letter-spacing: -0.035em;
@@ -148,7 +148,7 @@ h2 {
 .salon-row h3 {
   margin: 0;
   color: #242321;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--heading-font);
   font-size: 1.18rem;
   font-weight: 600;
   line-height: 1.25;

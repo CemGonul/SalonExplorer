@@ -4,12 +4,14 @@
   --muted: #6f6a61;
   --accent: #8f563b;
   --line: #ddd4c6;
+  --body-font: Verdana, Geneva, sans-serif;
+  --heading-font: Cambria, Georgia, serif;
 
   display: block;
   min-height: 100dvh;
   color: var(--ink);
   background: var(--page-bg);
-  font-family: "Trebuchet MS", Verdana, sans-serif;
+  font-family: var(--body-font);
 }
 
 .app-shell {
@@ -39,7 +41,7 @@
 
 h1 {
   margin: 0;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--heading-font);
   font-size: clamp(2rem, 5vw, 3.4rem);
   font-weight: 600;
   letter-spacing: -0.04em;

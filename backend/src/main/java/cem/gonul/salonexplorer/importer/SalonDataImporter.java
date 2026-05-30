@@ -5,6 +5,7 @@ import cem.gonul.salonexplorer.repository.SalonRepository;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
@@ -17,6 +18,7 @@ import java.util.List;
 
 @Component
 @RequiredArgsConstructor
+@Slf4j
 @ConditionalOnProperty(prefix = "app.import-data", name = "enabled", havingValue = "true")
 public class SalonDataImporter implements CommandLineRunner {
 
@@ -49,8 +51,7 @@ public class SalonDataImporter implements CommandLineRunner {
 
         salonRepository.saveAll(salonsToSave);
 
-        System.out.println("Salon import finished. Imported: " + salonsToSave.size()
-                + ", skipped duplicates: " + skippedCount);
+        log.info("Salon import finished. Imported: {}, skipped duplicates: {}", salonsToSave.size(), skippedCount);
     }
 
     private Salon toSalon(SalonImportRecord record) {

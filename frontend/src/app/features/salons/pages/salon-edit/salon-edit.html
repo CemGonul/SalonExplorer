@@ -1,0 +1,77 @@
+<section class="edit-page">
+  @if (salon(); as salon) {
+    <a class="back-link" [routerLink]="['/salons', salon.id]">Back to details</a>
+  } @else {
+    <a class="back-link" routerLink="/">Back to salons</a>
+  }
+
+  @if (isLoading()) {
+    <div class="status-card">
+      <p>Loading salon details...</p>
+    </div>
+  } @else if (salon(); as salon) {
+    <form class="edit-card" (submit)="saveChanges(); $event.preventDefault()">
+      <div class="edit-card__header">
+        <div>
+          <p class="section-label">{{ salon.district }}</p>
+          <h2>Edit salon details</h2>
+        </div>
+        <p>Only name, address and website can be changed here.</p>
+      </div>
+
+      @if (errorMessage()) {
+        <div class="status-card status-card--error">
+          <p>{{ errorMessage() }}</p>
+        </div>
+      }
+
+      <label>
+        Name
+        <input
+          type="text"
+          [value]="name()"
+          (input)="onNameChange(nameInput.value)"
+          #nameInput
+          required
+        />
+      </label>
+
+      <label>
+        Address
+        <textarea
+          [value]="address()"
+          (input)="onAddressChange(addressInput.value)"
+          #addressInput
+          rows="3"
+          required
+        ></textarea>
+      </label>
+
+      <label>
+        Website
+        <input
+          type="url"
+          [value]="website()"
+          (input)="onWebsiteChange(websiteInput.value)"
+          #websiteInput
+          placeholder="https://example.com"
+        />
+      </label>
+
+      <div class="form-actions">
+        <a [routerLink]="['/salons', salon.id]">Cancel</a>
+        <button type="submit" [disabled]="isSaving()">
+          @if (isSaving()) {
+            Saving...
+          } @else {
+            Save changes
+          }
+        </button>
+      </div>
+    </form>
+  } @else if (errorMessage()) {
+    <div class="status-card status-card--error">
+      <p>{{ errorMessage() }}</p>
+    </div>
+  }
+</section>

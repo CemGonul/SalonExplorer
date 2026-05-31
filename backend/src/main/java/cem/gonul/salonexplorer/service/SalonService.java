@@ -6,6 +6,7 @@ import cem.gonul.salonexplorer.dto.SalonUpdateRequest;
 import cem.gonul.salonexplorer.entity.Salon;
 import cem.gonul.salonexplorer.exception.BadRequestException;
 import cem.gonul.salonexplorer.exception.NotFoundException;
+import cem.gonul.salonexplorer.mapper.SalonMapper;
 import cem.gonul.salonexplorer.repository.SalonRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Sort;
@@ -20,6 +21,7 @@ import java.util.List;
 public class SalonService {
 
     private final SalonRepository salonRepository;
+    private final SalonMapper salonMapper;
 
     @Transactional(readOnly = true)
     public List<SalonListResponse> getSalons(String district, String sortBy, String direction) {
@@ -35,7 +37,7 @@ public class SalonService {
         List<SalonListResponse> responses = new ArrayList<>();
 
         for (Salon salon : salons) {
-            responses.add(toListResponse(salon));
+            responses.add(salonMapper.toListResponse(salon));
         }
 
         return responses;
@@ -44,7 +46,7 @@ public class SalonService {
     @Transactional(readOnly = true)
     public SalonDetailResponse getSalonById(Long id) {
         Salon salon = findSalon(id);
-        return toDetailResponse(salon);
+        return salonMapper.toDetailResponse(salon);
     }
 
     @Transactional(readOnly = true)
@@ -65,23 +67,12 @@ public class SalonService {
         salon.setWebsite(request.website());
 
         Salon savedSalon = salonRepository.save(salon);
-        return toDetailResponse(savedSalon);
+        return salonMapper.toDetailResponse(savedSalon);
     }
 
     private Salon findSalon(Long id) {
         return salonRepository.findById(id)
                 .orElseThrow(() -> new NotFoundException("Salon not found with id: " + id));
-    }
-
-    private SalonListResponse toListResponse(Salon salon) {
-        return new SalonListResponse(
-                salon.getId(),
-                salon.getName(),
-                salon.getDistrict(),
-                salon.getRating(),
-                salon.getReviewCount(),
-                salon.getPriceRange()
-        );
     }
 
     private Sort createSort(String sortBy, String direction) {
@@ -138,18 +129,4 @@ public class SalonService {
         return Sort.Direction.ASC;
     }
 
-    private SalonDetailResponse toDetailResponse(Salon salon) {
-        return new SalonDetailResponse(
-                salon.getId(),
-                salon.getName(),
-                salon.getAddress(),
-                salon.getDistrict(),
-                salon.getPhoneNumber(),
-                salon.getWebsite(),
-                salon.getServices(),
-                salon.getPriceRange(),
-                salon.getRating(),
-                salon.getReviewCount()
-        );
-    }
 }

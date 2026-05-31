@@ -58,20 +58,16 @@ Start PostgreSQL from the project root:
 docker compose up -d
 ```
 
-Start the backend:
+Import the prepared JSON data once:
 
 ```powershell
 cd backend
-.\mvnw.cmd spring-boot:run
-```
-
-If the database is empty, import the prepared JSON data once:
-
-```powershell
 .\mvnw.cmd spring-boot:run "-Dspring-boot.run.arguments=--app.import-data.enabled=true"
 ```
 
-After the import finishes, stop the backend with `Ctrl + C` and start it normally again:
+After the import finishes, stop the backend with `Ctrl + C`.
+
+Start the backend normally:
 
 ```powershell
 .\mvnw.cmd spring-boot:run

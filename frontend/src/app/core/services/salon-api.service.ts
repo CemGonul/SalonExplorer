@@ -41,6 +41,10 @@ export class SalonApiService {
     return this.http.get<SalonDetail>(`${this.apiUrl}/${id}`);
   }
 
+  getDistricts(): Observable<string[]> {
+    return this.http.get<string[]>(`${this.apiUrl}/districts`);
+  }
+
   updateSalon(id: number, request: SalonUpdateRequest): Observable<SalonDetail> {
     return this.http.put<SalonDetail>(`${this.apiUrl}/${id}`, request);
   }

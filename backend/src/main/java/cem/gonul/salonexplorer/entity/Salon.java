@@ -33,7 +33,7 @@ public class Salon {
     @Column(nullable = false)
     private String name;
 
-    @Column(nullable = false, length = 500)
+    @Column(nullable = false, length = 255)
     private String address;
 
     @Column(nullable = false, length = 100)

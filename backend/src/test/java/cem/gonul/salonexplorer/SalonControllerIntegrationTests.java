@@ -95,6 +95,15 @@ class SalonControllerIntegrationTests {
     }
 
     @Test
+    void returnsDistrictsFromDatabase() throws Exception {
+        mockMvc.perform(get("/api/salons/districts"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$", hasSize(2)))
+                .andExpect(jsonPath("$[0]").value("Mokotów"))
+                .andExpect(jsonPath("$[1]").value("Wola"));
+    }
+
+    @Test
     void returnsSalonDetailsById() throws Exception {
         mockMvc.perform(get("/api/salons/{id}", wolaSalon.getId()))
                 .andExpect(status().isOk())
@@ -110,13 +119,7 @@ class SalonControllerIntegrationTests {
                 {
                   "name": "Updated Wola Spa",
                   "address": "Updated Street 7, Warsaw",
-                  "district": "Wola",
-                  "phoneNumber": null,
-                  "website": "https://updated.example.com",
-                  "services": "Spa Salon",
-                  "priceRange": null,
-                  "rating": 4.6,
-                  "reviewCount": 55
+                  "website": "https://updated.example.com"
                 }
                 """;
 
@@ -133,6 +136,9 @@ class SalonControllerIntegrationTests {
         org.assertj.core.api.Assertions.assertThat(updatedSalon.getName()).isEqualTo("Updated Wola Spa");
         org.assertj.core.api.Assertions.assertThat(updatedSalon.getAddress()).isEqualTo("Updated Street 7, Warsaw");
         org.assertj.core.api.Assertions.assertThat(updatedSalon.getWebsite()).isEqualTo("https://updated.example.com");
+        org.assertj.core.api.Assertions.assertThat(updatedSalon.getDistrict()).isEqualTo("Wola");
+        org.assertj.core.api.Assertions.assertThat(updatedSalon.getRating()).isEqualByComparingTo(new BigDecimal("4.6"));
+        org.assertj.core.api.Assertions.assertThat(updatedSalon.getReviewCount()).isEqualTo(55);
     }
 
     @Test
@@ -144,18 +150,29 @@ class SalonControllerIntegrationTests {
     }
 
     @Test
+    void returnsBadRequestWhenUpdatingToDuplicateSalon() throws Exception {
+        String requestBody = """
+                {
+                  "name": "Mokotow Nails",
+                  "address": "Rakowiecka 20, Warsaw",
+                  "website": "https://duplicate.example.com"
+                }
+                """;
+
+        mockMvc.perform(put("/api/salons/{id}", wolaSalon.getId())
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(requestBody))
+                .andExpect(status().isBadRequest())
+                .andExpect(jsonPath("$.message").value("Another salon already exists with this name and address."));
+    }
+
+    @Test
     void returnsBadRequestForInvalidUpdateRequest() throws Exception {
         String requestBody = """
                 {
                   "name": "",
                   "address": "Updated Street 7, Warsaw",
-                  "district": "Wola",
-                  "phoneNumber": null,
-                  "website": "https://updated.example.com",
-                  "services": "Spa Salon",
-                  "priceRange": null,
-                  "rating": 4.6,
-                  "reviewCount": 55
+                  "website": "https://updated.example.com"
                 }
                 """;
 

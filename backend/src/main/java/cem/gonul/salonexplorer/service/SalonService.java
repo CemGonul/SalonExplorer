@@ -10,6 +10,7 @@ import cem.gonul.salonexplorer.repository.SalonRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,6 +21,7 @@ public class SalonService {
 
     private final SalonRepository salonRepository;
 
+    @Transactional(readOnly = true)
     public List<SalonListResponse> getSalons(String district, String sortBy, String direction) {
         Sort sort = createSort(sortBy, direction);
         List<Salon> salons;
@@ -39,23 +41,28 @@ public class SalonService {
         return responses;
     }
 
+    @Transactional(readOnly = true)
     public SalonDetailResponse getSalonById(Long id) {
         Salon salon = findSalon(id);
         return toDetailResponse(salon);
     }
 
+    @Transactional(readOnly = true)
+    public List<String> getDistricts() {
+        return salonRepository.findDistinctDistricts();
+    }
+
+    @Transactional
     public SalonDetailResponse updateSalon(Long id, SalonUpdateRequest request) {
         Salon salon = findSalon(id);
 
+        if (salonRepository.existsByNameAndAddressAndIdNot(request.name(), request.address(), id)) {
+            throw new BadRequestException("Another salon already exists with this name and address.");
+        }
+
         salon.setName(request.name());
         salon.setAddress(request.address());
-        salon.setDistrict(request.district());
-        salon.setPhoneNumber(request.phoneNumber());
         salon.setWebsite(request.website());
-        salon.setServices(request.services());
-        salon.setPriceRange(request.priceRange());
-        salon.setRating(request.rating());
-        salon.setReviewCount(request.reviewCount());
 
         Salon savedSalon = salonRepository.save(salon);
         return toDetailResponse(savedSalon);

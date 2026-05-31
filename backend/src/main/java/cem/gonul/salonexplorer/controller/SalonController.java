@@ -32,6 +32,11 @@ public class SalonController {
         return salonService.getSalons(district, sortBy, direction);
     }
 
+    @GetMapping("/districts")
+    public List<String> getDistricts() {
+        return salonService.getDistricts();
+    }
+
     @GetMapping("/{id}")
     public SalonDetailResponse getSalonById(@PathVariable Long id) {
         return salonService.getSalonById(id);

@@ -32,6 +32,7 @@
           [value]="name()"
           (input)="onNameChange(nameInput.value)"
           #nameInput
+          [attr.maxlength]="nameMaxLength"
           required
         />
       </label>
@@ -43,6 +44,7 @@
           (input)="onAddressChange(addressInput.value)"
           #addressInput
           rows="3"
+          [attr.maxlength]="addressMaxLength"
           required
         ></textarea>
       </label>
@@ -54,6 +56,7 @@
           [value]="website()"
           (input)="onWebsiteChange(websiteInput.value)"
           #websiteInput
+          [attr.maxlength]="websiteMaxLength"
           placeholder="https://example.com"
         />
       </label>

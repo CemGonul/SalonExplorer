@@ -16,7 +16,7 @@
         (change)="onDistrictChange(districtSelect.value)"
       >
         <option value="">All districts</option>
-        @for (district of districts; track district) {
+        @for (district of districts(); track district) {
           <option [value]="district">{{ district }}</option>
         }
       </select>
@@ -44,7 +44,7 @@
         [disabled]="!selectedSortBy()"
         (change)="onDirectionChange(directionSelect.value)"
       >
-        <option value="">None</option>
+        <option value="">{{ selectedSortBy() ? 'Default' : 'None' }}</option>
         <option value="asc">Ascending</option>
         <option value="desc">Descending</option>
       </select>

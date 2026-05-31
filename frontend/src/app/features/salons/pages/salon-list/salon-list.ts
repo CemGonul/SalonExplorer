@@ -15,7 +15,7 @@ export class SalonList implements OnInit {
   private readonly salonApi = inject(SalonApiService);
   private readonly destroyRef = inject(DestroyRef);
 
-  protected readonly districts = ['Mokotów', 'Śródmieście', 'Wola'];
+  protected readonly districts = signal<string[]>([]);
   protected readonly selectedDistrict = signal('');
   protected readonly selectedSortBy = signal('');
   protected readonly selectedDirection = signal('');
@@ -24,6 +24,7 @@ export class SalonList implements OnInit {
   protected readonly errorMessage = signal<string | null>(null);
 
   ngOnInit(): void {
+    this.loadDistricts();
     this.loadSalons();
   }
 
@@ -34,15 +35,38 @@ export class SalonList implements OnInit {
 
   protected onSortByChange(sortBy: string): void {
     this.selectedSortBy.set(sortBy);
-    if (!sortBy) {
-      this.selectedDirection.set('');
-    }
+    this.selectedDirection.set(this.defaultDirectionFor(sortBy));
     this.loadSalons();
   }
 
   protected onDirectionChange(direction: string): void {
     this.selectedDirection.set(direction);
     this.loadSalons();
+  }
+
+  private defaultDirectionFor(sortBy: string): string {
+    if (!sortBy) {
+      return '';
+    }
+
+    if (sortBy === 'name') {
+      return 'asc';
+    }
+
+    return 'desc';
+  }
+
+  private loadDistricts(): void {
+    this.salonApi.getDistricts()
+      .pipe(takeUntilDestroyed(this.destroyRef))
+      .subscribe({
+        next: (districts) => {
+          this.districts.set(districts);
+        },
+        error: () => {
+          this.districts.set([]);
+        }
+      });
   }
 
   private loadSalons(): void {

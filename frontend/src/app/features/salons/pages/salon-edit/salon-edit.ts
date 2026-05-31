@@ -16,6 +16,10 @@ export class SalonEditPage implements OnInit {
   private readonly router = inject(Router);
   private readonly salonApi = inject(SalonApiService);
 
+  protected readonly nameMaxLength = 255;
+  protected readonly addressMaxLength = 255;
+  protected readonly websiteMaxLength = 500;
+
   protected readonly salon = signal<SalonDetail | null>(null);
   protected readonly name = signal('');
   protected readonly address = signal('');
@@ -67,27 +71,46 @@ export class SalonEditPage implements OnInit {
       return;
     }
 
-    this.isSaving.set(true);
+    const trimmedName = this.name().trim();
+    const trimmedAddress = this.address().trim();
+    const trimmedWebsite = this.website().trim();
+
     this.errorMessage.set(null);
 
+    if (!trimmedName || !trimmedAddress) {
+      this.errorMessage.set('Name and address are required.');
+      return;
+    }
+
+    if (trimmedName.length > this.nameMaxLength) {
+      this.errorMessage.set(`Name must be ${this.nameMaxLength} characters or less.`);
+      return;
+    }
+
+    if (trimmedAddress.length > this.addressMaxLength) {
+      this.errorMessage.set(`Address must be ${this.addressMaxLength} characters or less.`);
+      return;
+    }
+
+    if (trimmedWebsite.length > this.websiteMaxLength) {
+      this.errorMessage.set(`Website must be ${this.websiteMaxLength} characters or less.`);
+      return;
+    }
+
+    this.isSaving.set(true);
+
     const request: SalonUpdateRequest = {
-      name: this.name().trim(),
-      address: this.address().trim(),
-      district: currentSalon.district,
-      phoneNumber: currentSalon.phoneNumber,
-      website: this.website().trim() || null,
-      services: currentSalon.services,
-      priceRange: currentSalon.priceRange,
-      rating: currentSalon.rating,
-      reviewCount: currentSalon.reviewCount
+      name: trimmedName,
+      address: trimmedAddress,
+      website: trimmedWebsite || null
     };
 
     this.salonApi.updateSalon(currentSalon.id, request).subscribe({
       next: (updatedSalon) => {
         this.router.navigate(['/salons', updatedSalon.id]);
       },
-      error: () => {
-        this.errorMessage.set('Could not save changes.');
+      error: (error) => {
+        this.errorMessage.set(error.error?.message || 'A salon with this name and address already exists.');
         this.isSaving.set(false);
       }
     });

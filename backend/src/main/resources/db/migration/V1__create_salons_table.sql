@@ -2,7 +2,7 @@ CREATE TABLE salons (
                         id BIGSERIAL PRIMARY KEY,
 
                         name VARCHAR(255) NOT NULL,
-                        address VARCHAR(500) NOT NULL,
+                        address VARCHAR(255) NOT NULL,
                         district VARCHAR(100) NOT NULL,
 
                         phone_number VARCHAR(100),
